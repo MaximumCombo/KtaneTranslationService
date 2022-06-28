@@ -5,7 +5,7 @@ namespace TranslationService
 {
     public class OrientationCubeMagnifier: Magnifier
     {
-        private static Magnifier vmag = new VectorMagnifier(0.02f, 0.02f);
+        private static Magnifier vmag = new VectorMagnifier(0.14f, 0.14f);
         public override float GetMagnifier(Vector2 beforeBounds, Vector2 afterBounds, string text, KMBombModule module)
         {
             switch (text) {

@@ -21,7 +21,7 @@ namespace TranslationService.ModuleTranslators
 
         private static readonly Type componentType = ReflectionHelper.FindType("MurderModule");
         private static bool isPatched = false;
-        private static Magnifier displayMagnifier(string langCode) => langCode == "ja" ? new Magnifier.VectorMagnifier(0.1f, 0.02f) : new Magnifier.VectorMagnifier(0.1f, 0.012132f);
+        private static Magnifier displayMagnifier(string langCode) => langCode == "ja" ? new Magnifier.VectorMagnifier(0.08f, 0.010f) : new Magnifier.VectorMagnifier(0.1f, 0.012132f);
 
         public override void StartTranslation(KMBombModule module, Translator translator)
         {

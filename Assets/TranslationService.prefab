@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 114197019854468846}
   - component: {fileID: 114834925760006366}
   - component: {fileID: 114069589674833726}
-  - component: {fileID: 114200178174318310}
+  - component: {fileID: 114716958898458944}
   m_Layer: 0
   m_Name: TranslationService
   m_TagString: Untagged
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_Script: {fileID: -271661043, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114200178174318310
+--- !u!114 &114716958898458944
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -73,21 +73,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1420900081920390}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1408796477, guid: 4f1f06e2f2366d442b28490dda7146f3, type: 3}
+  m_Script: {fileID: -1408796477, guid: 0e451187a47aac1468bd1d1e31c04a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   fontLang:
-  - ja
-  - zh-CN
-  - zh-TW
-  fontFont:
-  - {fileID: 12800000, guid: 5fe85fd0d706fa54798b72bd4a497349, type: 3}
-  - {fileID: 12800000, guid: b091ed78024c3904e84e83b3f2fa84aa, type: 3}
-  - {fileID: 12800000, guid: b091ed78024c3904e84e83b3f2fa84aa, type: 3}
-  fontMaterial:
-  - {fileID: 2100000, guid: 14047c3414648d54e9205c974b51a826, type: 2}
-  - {fileID: 2100000, guid: e08e061f7405b0c489409e2baf51bb64, type: 2}
-  - {fileID: 2100000, guid: e08e061f7405b0c489409e2baf51bb64, type: 2}
+  - 
+  fontFont: []
+  fontMaterial: []
 --- !u!114 &114834925760006366
 MonoBehaviour:
   m_ObjectHideFlags: 1

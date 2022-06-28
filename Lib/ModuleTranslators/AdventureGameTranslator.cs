@@ -23,7 +23,7 @@ namespace TranslationService.ModuleTranslators
 
         private static readonly Type componentType = ReflectionHelper.FindType("AdventureGameModule");
         private static bool isPatched = false;
-        private static Magnifier displayMagnifier(string langCode) => langCode == "ja" ? new Magnifier.VectorMagnifier(0.07f, 0.025f) : new Magnifier.VectorMagnifier(0.07f, 0.016176f) ;
+        private static Magnifier displayMagnifier(string langCode) => langCode == "ja" ? new Magnifier.VectorMagnifier(0.07f, 0.018f) : new Magnifier.VectorMagnifier(0.07f, 0.016176f) ;
 
         public override void StartTranslation(KMBombModule module, Translator translator)
         {
